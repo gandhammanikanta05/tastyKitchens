@@ -1,0 +1,85 @@
+.food-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.food-description {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.food-img {
+  height: 150px;
+  width: 255px;
+  border-radius: 10px;
+}
+.food-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin: 0px;
+}
+.rupee {
+  color: #333333;
+  margin: 0px;
+}
+.star {
+  color: gold;
+  margin: 0px;
+}
+.cost-sections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+.rating-sections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+.food-cost {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+  margin: 5px;
+}
+.food-rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #0a1f44;
+  margin: 5px;
+}
+.add-btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffa412;
+  border: 2px solid #ffa412;
+  border-radius: 5px;
+  cursor: pointer;
+}

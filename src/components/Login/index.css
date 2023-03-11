@@ -1,0 +1,126 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+.heading {
+  height: 32px;
+  left: 21.32%;
+  right: 66.74%;
+  top: calc(50% - 32px / 2 - 155px);
+  color: #f7931e;
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.website-logo {
+  width: 53px;
+  height: 43px;
+  left: 366px;
+  top: 298px;
+}
+.login-card {
+  position: absolute;
+  width: 30vw;
+  height: 523px;
+  background: #fefeff;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first-section {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Light / blue-gray / 900 */
+
+  color: #0f172a;
+}
+.input-section {
+  width: 360px;
+  height: 64px;
+  left: 213px;
+  top: 509px;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  width: 66px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+.input-box {
+  height: 40px;
+  left: 0%;
+  right: 0%;
+  top: 24px;
+
+  /* Light / blue-gray / 200 */
+
+  background: #e2e8f0;
+  border-radius: 2px;
+}
+.login-btn {
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 23vw;
+  height: 5vh;
+  background: #f7931e;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.image {
+  width: 50vw;
+  height: 100vh;
+}
+.second-section {
+  width: 50vw;
+  height: 100vh;
+}
+.errorMsg {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ef4444;
+}

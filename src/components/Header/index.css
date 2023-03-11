@@ -1,0 +1,58 @@
+.heading {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  justify-content: space-between;
+  height: 96px;
+  padding: 30px;
+}
+.logo-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.end-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.heading-1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #f7931e;
+  text-decoration: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.heading-2 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.link-item {
+  text-decoration: none;
+}
+.logout-btn {
+  background-color: #f7931e;
+  color: #ffffff;
+  font-family: 'DM Sans';
+  border-radius: 5px;
+  border-width: 0px;
+  height: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
